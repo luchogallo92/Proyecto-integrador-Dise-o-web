@@ -1,0 +1,581 @@
+:root {
+    color: Raisinblack #242325;
+    color: Scaret #F42C04;
+    color: Dimgraay #726E75;
+    color: baackground #F5F5F5;
+}
+
+/* GENERAL PPTES */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    width: 1360px;
+    margin: 0 auto;
+    background-color: #ffffff; 
+}
+
+
+/* Header Estilos */
+header {
+    display: flex;
+    flex: row;
+    height: 80px;
+    min-width: 75%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Polaroid LOGO */
+header img {
+    padding-left: 20px;
+    padding-top: 5px;
+    height: 15vh;
+    padding-left: 35px;
+}
+
+header {
+    font-family: 'Martel sans', sans-serif;
+    text-align: left;
+}
+
+/* links del header */
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    font-family: 'Martel sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    color: #3C3C3C;
+    margin: 0 22px; 
+}
+
+/* Iconos header */
+
+.iconos-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50px;
+
+}
+
+#ico-login {
+    height: 35px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#ico-fav {
+    height: 35px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#ico-shop {
+    height: 35px;
+    padding: 10px;
+    margin: 5px;
+}
+/* ------------------------------------------------- */
+
+/* Hero */
+
+.Hero-section {
+    display: flex;
+    height: 32rem;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+    max-width: none;
+    margin: 0 auto;
+    min-width: 75%;
+}
+
+.hero-title {
+    display: flex;
+    align-items: center;
+    margin-right: 11rem;
+    height: 5rem;
+    position: absolute;
+}
+
+.type-effect {
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgb(57, 57, 57);
+    width: 15rem;
+    height: 5rem;
+}
+
+.type-effect h1 {
+    font-size: 5rem;
+    font-weight: 800;
+    font-family: "martel sans"; 
+    width: 10rem;
+}
+
+.hero-img {
+    z-index: -1;
+    height: 30rem;
+    min-height: 22rem;
+    width: 100%;
+    min-width: 75%;
+    background-image: url(./Assets/Banner/Banner-bg-3.jpg);
+    background-size: cover;
+    background-position-y: 10%;
+    position: static;
+    border-radius: 10px;
+}
+
+/* Products Titles */
+
+.box-products-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 4rem;
+    width: 100%;
+    min-width: 75%;
+    background-color: #242325;
+    color: #F5F5F5;
+    border-radius: 10px 10px 0px 0px; 
+    margin-top: 2rem;
+    font-family: "martel sans";
+}
+
+
+/* BOXES-SHOP */
+
+.boxes-shop {
+    margin-top: 1rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    min-width: 75%;
+    justify-content: center;
+    overflow: hidden;
+    height: 550px;
+    justify-content: space-evenly;
+    background: rgba(255, 255, 255, 0.22);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.4px);
+    -webkit-backdrop-filter: blur(2.4px);
+}
+
+.caja-shop {
+    margin: 10px;
+    width: 300px;
+    height: 480px;
+    border-radius: 20px;
+    background-color: #242325;
+    padding: 7px;
+}
+
+.box-shop-imagen {
+    width: 300px;
+    height: 350px;
+}
+
+.box-shop-imagen img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.caja-title {
+    margin-top: 0.5rem;
+    flex-direction: column;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+.caja-title h2 {
+    font-weight: 800;
+    font-size: 18px;
+    font-family: "Martel sans";
+    text-align: center;
+
+}
+
+.caja-title p {
+    font-size: 12px;
+    font-family: "fira sans";
+    text-align: center;
+}
+
+.add-to-cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.add-to-cart button {
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 10px 0px 0px 10px;
+    color: #242325;
+    background-color: #F1F2EB;
+}
+
+.add-to-cart img {
+    height: 2rem;
+    padding: 4px;
+    background-color: #F1F2EB;
+    border-radius: 0px 10px 10px 0px;
+}
+
+/* Box Reviews Titles */
+
+.box-reviews-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 4rem;
+    width: 100%;
+    min-width: 75%;
+    background-color: #242325;
+    border-radius: 0px 0px 10px 10px; 
+}
+
+.box-reviews-title h1 {
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Martel sans";
+    color: #F5F5F5;
+}
+
+/*  BOX REVIEWS GRAL */
+
+.box-reviews {
+    width: 100%;
+    min-width: 75%;
+    /* background-color: rgb(255, 157, 157); */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* Boxes de Reviews */
+
+.review_1 {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20rem;
+    height: 16rem;
+    margin-left: 1rem;
+}
+
+.review_1 img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+.review_1 h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 800;
+    font-family: "martel sans";
+}
+
+.review_1 p {
+    font-family: "fira sans";
+    text-align: center;
+}
+
+/* Contacto */
+
+.box-contacto-gral {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    min-width: 75%;
+    background-color: rgb(57, 57, 57);
+    margin: auto;
+    margin-top: 10px;
+    justify-content: space-between;
+    color: #F5F5F5;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgb(57, 57, 57);
+}
+
+.boxes-contacto {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 24rem;
+}
+
+.button-send-info {
+    margin-top: 4rem;
+}
+
+.button-send-info button {
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    width: 8rem;
+    height: 2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #F1F2EB;
+    color:  #242325;;
+}
+
+/* Contacto P */
+
+.boxes-contacto p {
+    font-size: 25px;
+    font-family: "fira sans";
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Contacto - name */
+.box-name {
+    padding: 10px;
+    text-align: left;
+    align-items: center;
+    height: 40px;
+    width: 200px;
+    margin-left: 2rem;
+    color: #F5F5F5;
+}
+
+.box-name label {
+    font-family: "martel sans";
+    font-size: 15px;
+}
+
+.box-name input {
+    border-radius: 5px;
+    height: 25px;
+    width: 100%;
+    text-align: left;
+    align-content: center;
+    border: none;
+}
+
+/* Contacto email*/
+
+.box-email {
+    padding: 10px;
+    text-align: left;
+    align-items: center;
+    height: 40px;
+    width: 200px;
+    margin-left: 2rem;
+    color: #F5F5F5;
+}
+
+.box-email label {
+    font-family: "martel sans";
+    font-size: 15px;
+}
+
+.box-email input {
+    border-radius: 5px;
+    height: 25px;
+    width: 100%;
+    text-align: left;
+    align-content: center;
+    border: none;
+}
+
+/* Contacto telefono */
+
+.box-phone {
+    padding: 10px;
+    text-align: left;
+    align-items: center;
+    height: 40px;
+    width: 200px;
+    margin-left: 2rem;
+    color: #F5F5F5;
+}
+
+.box-phone label {
+    font-family: "martel sans";
+    font-size: 15px;
+}
+
+.box-phone input {
+    border-radius: 5px;
+    height: 25px;
+    width: 100%;
+    text-align: left;
+    align-content: center;
+    border: none;
+}
+
+/* Contacto Mensaje*/
+
+.box-mensaje {
+    padding: 10px;
+    text-align: left;
+    align-items: center;
+    height: 40px;
+    width: 200px;
+    margin-left: 2rem;
+}
+
+.box-mensaje label {
+    font-family: "martel sans";
+    font-size: 15px;
+    color: #F5F5F5;
+}
+
+.box-mensaje input {
+    border-radius: 5px;
+    height: 60px;
+    width: 100%;
+    text-align: left;
+    border: none;
+}
+
+
+/* Google maps */
+
+.mapouter {
+    display: flex;
+    align-items: center;
+}
+
+.gmap_canvas iframe {
+    border-radius: 20px;
+}
+
+.review_place {
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 20rem;
+    text-align: left;
+    justify-content: center;
+    border-radius: 5%;
+    padding: 1rem;
+
+}
+
+.review_place h1 {
+    font-family: "fira sans";
+    font-weight: 500;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.review_place p {
+    font-weight: 400;
+    font-family: "martel sans";
+    text-align: justify;
+    color: #F5F5F5;
+    position: static;
+    margin-top: 1rem;
+}
+
+
+/* Footer */
+
+.box-footer {
+    display: flex;
+    align-items: center;
+    background-color: #242325;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.box-footer-text-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+    text-align: left;
+    height: 8rem;
+    width: 200px;
+    padding: 3rem;
+}
+
+.box-footer-text-1 span {
+    font-weight: 800;
+    font-family: "martel sans";
+    color: #F1F2EB;
+}
+
+.box-footer-text-1 a {
+    font-family: "fira sans";
+    color: #F1F2EB;
+}
+
+/* Social media boxes */
+
+.box-social-media {
+    text-align: center;
+    height: 80px;
+    width: 20rem;
+}
+
+.box-social-media img {
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.box-social-media h3 {
+    font-family: "fira sans";
+    color: #F5F5F5;
+    font-weight: 400;
+}
+
+/* Title Creator */
+
+.title-creator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    background-color: #726E75;
+}
+
+.title-creator h3 {
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Martel sans";
+    color: #F5F5F5;
+}

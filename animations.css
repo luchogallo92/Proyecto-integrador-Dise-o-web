@@ -1,0 +1,134 @@
+
+/*-------------- Animaciones-links-Header -------*/
+.navbar a {
+    border: 1px;
+    border-radius: 2px;
+ } 
+ .navbar a:hover {
+   display: inline-block;
+   position: relative;
+ }
+ 
+ .navbar a:after {
+   content: '';
+   position: absolute;
+   width: 100%;
+   transform: scaleX(0);
+   height: 1px;
+   bottom: 0;
+   left: 0;
+   background-color: rgb(36, 36, 36);
+   transform-origin: bottom right;
+   transition: transform 0.3s ease-out;
+ }
+ 
+ .navbar a:hover:after {
+   transform: scaleX(1);
+   transform-origin: bottom left;
+ }
+
+ /* ---------------Iconos nav ----------------*/
+
+/* Login */
+.login a:hover {
+  display: inline-block;
+  position: relative;
+}
+
+.login a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(36, 36, 36);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.login a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Favourites */
+
+.favourites a:hover {
+  display: inline-block;
+  position: relative;
+}
+
+.favourites a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(36, 36, 36);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.favourites a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Shopcart */
+
+.shopcart a:hover {
+  display: inline-block;
+  position: relative;
+}
+
+.shopcart a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(36, 36, 36);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.shopcart a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Hero title Shop now */
+
+.type-effect h1 {
+  width: 9ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: monospace;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+ /* ------------- Cajas de shop ----------------*/
+
+ .caja-shop:hover {
+  transition: transform ease 200ms;
+ box-shadow: 1px 1px 12px  #4A4A48;
+  cursor: pointer;
+}

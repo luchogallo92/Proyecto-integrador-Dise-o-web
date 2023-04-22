@@ -1,0 +1,180 @@
+
+.login-box-gral {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35rem;
+    border: none;
+}
+
+.login-box-gral img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(./Assets/Login/login-background-3.jpg);
+    position: static;
+    opacity: 0.8;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 28rem;
+    width: 20rem;
+    margin: 0 auto;
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    font-family: "martel sans";
+    box-shadow: 2px 2px 5px rgb(57, 57, 57);
+    padding: 15px;
+}
+
+.login-box h1 {
+    font-family: "fira sans";
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+/* Username */
+
+.login-username {
+    height: 2.5rem;
+    width: 15rem;
+    background-color: rgb(220, 220, 220);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.login-username img {
+    height: 1.5rem;
+    width: 1.5rem;
+    background: none;
+    margin-right: 1rem;
+}
+
+.login-username input {
+    background-color: rgb(220, 220, 220);
+    width: 12rem;
+    height: 2.25rem;
+    border-radius: 10px;
+    border:none;
+}
+
+/* Password */
+
+.login-password {
+    height: 2.5rem;
+    width: 15rem;
+    background-color: rgb(220, 220, 220);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.login-password img {
+    height: 1.5rem;
+    width: 1.5rem;
+    background: none;
+    margin-right: 1rem;
+}
+
+.login-password input {
+    background-color: rgb(220, 220, 220);
+    width: 12rem;
+    height: 2.25rem;
+    border-radius: 10px;
+    border:none;
+}
+
+.login-password-forget a {
+    font-family: "fira sans";
+    font-size: 12px;
+}
+
+/* Google access */
+
+.access-google {
+    height: 2.5rem;
+    width: 15rem;
+    background-color: rgb(220, 220, 220);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.access-google img {
+    height: 1.5rem;
+    width: 1.5rem;
+    background: none;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    opacity: 1.1;
+}
+
+.access-google button {
+    font-weight: 600;
+    width: 14rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    background-color: #5353ff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
+}
+
+/* facebook access */
+
+.access-facebook {
+    height: 2.5rem;
+    width: 15rem;
+    background-color: rgb(220, 220, 220);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.access-facebook img {
+    height: 1.5rem;
+    width: 1.5rem;
+    background: none;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    opacity: 1.1;
+}
+
+.access-facebook button {
+    font-weight: 600;
+    width: 14rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    background-color: #5353ff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
+}
+
+/* Button access */
+
+.login-access button {
+    font-weight: 600;
+    width: 12rem;
+    height: 2.25rem;
+    border-radius: 20px;
+    background-color: #242325;
+    color: #ffffff;
+    border:none;
+    cursor: pointer;
+}
