@@ -28,14 +28,15 @@ header {
     min-width: 75%;
     justify-content: space-between;
     align-items: center;
+    position: static;
 }
 
 
-/* Polaroid LOGO */
+/* Montreal LOGO */
 header img {
     padding-left: 20px;
     padding-top: 5px;
-    height: 7vh;
+    height: 6vh;
     padding-left: 35px;
 }
 
