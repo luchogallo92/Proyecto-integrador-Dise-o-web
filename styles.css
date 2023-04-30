@@ -233,13 +233,13 @@ header {
     width: 10rem;
     border-radius: 10px 0px 0px 10px;
     color: #242325;
-    background-color: #F1F2EB;
+    background-color: #ffffff;
 }
 
 .add-to-cart img {
     height: 2rem;
     padding: 4px;
-    background-color: #F1F2EB;
+    background-color: #ffffff;
     border-radius: 0px 10px 10px 0px;
 }
 
@@ -270,7 +270,6 @@ header {
 .box-reviews {
     width: 100%;
     min-width: 75%;
-    /* background-color: rgb(255, 157, 157); */
     border-radius: 10px;
     display: flex;
     flex-direction: row;
