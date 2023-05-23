@@ -7,44 +7,37 @@
 
 /* GENERAL PPTES */
 *{
-    margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
 }
 
 body {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
     background: rgb(255,255,255);
 }
-
 
 /* Header Estilos */
 header {
     display: flex;
     flex: row;
     width: 100%;
-    margin: 0 auto;
     height: 80px;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     background: rgba(255, 255, 255);
     filter: drop-shadow(0 0 0.50rem rgb(74, 74, 74));
-    z-index: 1000;
+    z-index: 100;
 }
-
 
 /* Montreal LOGO */
-header {
-    font-family: 'Martel sans', sans-serif;
-    text-align: left;
-}
-
 header img {
-    padding-left: 20px;
+    padding-left: 35px;
     padding-top: 5px;
     height: 6vh;
-    padding-left: 35px;
 }
 
 /* links del header */
@@ -59,7 +52,11 @@ header img {
     text-align: center;
     align-items: center;
     color: #3C3C3C;
-    margin: 0 22px; 
+    margin: 0 22px;
+}
+
+.navbar li{
+    scroll-behavior: smooth;
 }
 
 /* Iconos header */
@@ -94,7 +91,6 @@ header img {
 /* Hero */
 
 .Hero-section {
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     height: 32rem;
@@ -108,6 +104,7 @@ header img {
     align-items: center;
     height: 5rem;
     position: absolute;
+    margin-left: 3rem;
 }
 
 .type-effect {
@@ -128,27 +125,56 @@ header img {
     z-index: -2;
     height: 30rem;
     width: 100%;
-    background-image: url(./Assets/Banner/Banner-bg-3.jpg);
+    background-image: url(./Assets/Banner/Banner-bg-2.jpg);
     background-size: cover;
     position: static;
     border-radius: 5px;
     margin-top: 100px;
+    background-position-y: -300px;
 }
 
-/* Products Titles */
+/* Products Filters */
 
-.box-products-title {
+.filter h2 {
+    text-align: center;
+    font-family: "martel sans";
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.box-filter {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 0 auto;
-    height: 8rem;
+    height: 250px;
     width: 100%;
     min-width: 75%;
-    background-color: #78aaff;
-    color: #F5F5F5; 
-    margin-top: 2rem;
-    font-family: "martel sans";
+    color: #000000; 
+}
+
+.box-filter h2 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.filter-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.filter-card img {
+    height: 180px;
+}
+
+.filter-card p {
+    text-align: center;
+    font-family: "fira sans";
+    font-size: 25px;
+    margin-top: -5px;
 }
 
 
@@ -157,24 +183,24 @@ header img {
 .boxes-shop {
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3, 360px);
-    width: 95%;
-    overflow: hidden;
+    grid-template-columns: repeat(4, 400px);
+    width: 100%;
     height: 180vh;
     align-items: center;
     justify-content: center;
 }
 
 .caja-shop {
+    padding: 2px;
     width: 300px;
-    height: 470px;
+    height: 450px;
     border-radius: 5px;
     background-color: #78aaff;
 }
 
 .box-shop-imagen {
     width: 300px;
-    height: 350px;
+    height: 300px;
 }
 
 .box-shop-imagen img {
@@ -231,6 +257,7 @@ header img {
     background-color: #ffffff;
     border-radius: 0px 10px 10px 0px;
 }
+
 
 /* Box Reviews Titles */
 
