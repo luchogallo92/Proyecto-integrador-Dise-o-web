@@ -15,7 +15,7 @@
     background-size: cover;
     background-image: url(./Assets/Login/login-background-3.jpg);
     position: static;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .login-box {
@@ -28,16 +28,16 @@
     margin: 0 auto;
     position: absolute;
     border-radius: 10px;
-    font-family: "martel sans";
+    font-family: "inter";
     padding: 15px;
     background: rgba(255, 255, 255, 0.22);
-    backdrop-filter: blur(2.4px);
-    -webkit-backdrop-filter: blur(2.4px);
+    backdrop-filter: blur(10.4px);
+    -webkit-backdrop-filter: blur(10.4px);
     color: #f7f7f7;
 }
 
 .login-box h1 {
-    font-family: "fira sans";
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 2rem;
     margin-top: 1rem;
@@ -99,8 +99,12 @@
 }
 
 .login-password-forget a {
-    font-family: "fira sans";
+    font-family: 'Montserrat', sans-serif;
     font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #f7f7f7;
+    text-shadow: 1px 3px 5px rgb(54, 54, 54);
 }
 
 /* Google access */

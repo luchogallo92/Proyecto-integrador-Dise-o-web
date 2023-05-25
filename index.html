@@ -14,7 +14,7 @@
 <!--------------- Tipografias -------------------------->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 <!---------------- Iconos ----------------->
 <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
@@ -64,17 +64,25 @@
             
             <div class="hero-title">
                 <div class= "type-effect">
-                <h1>Shop now!</h1>
-                <button>Colección 2023</button>
+                
+                    <h1>Shop now!</h1>
+
+                    <div class="button-products">
+                    <a href="#" class="btn"><span>Click Me</span></a>
+                    </div>
+
                 </div>
             </div>
+           
+
         </div>
 
 <!-- Products Title -->
-<section class="filter">
+<section class="filter" id="2">
     <h2>Nuestros productos</h2>
 
-    <div class="box-filter" id="2">
+    <div class="box-filter">
+
         <div class="filter-card">
             <img src="./Assets/Filter/Filter-1.svg" alt="">
             <p>Lentes de Receta</p>
@@ -213,17 +221,65 @@
             <img src="/Assets/Iconos/shop.png" alt="">
         </div>
     </div>
+    <div class="caja-shop">
+        <div class="box-shop-imagen">
+        <img src="./Assets/Anteojos/ant_praga.jpg" alt="">
+    </div>
+        <div class="caja-title">
+            <h2>Modelo Praga</h2>
+            <p>Precio: $31.500</p>
+        </div>
+        <div class="add-to-cart">
+            <button>Agregar al carrito</button>
+            <img src="/Assets/Iconos/shop.png" alt="">
+        </div>
+    </div>
+    <div class="caja-shop">
+        <div class="box-shop-imagen">
+        <img src="./Assets/Anteojos/ant_praga.jpg" alt="">
+    </div>
+        <div class="caja-title">
+            <h2>Modelo Praga</h2>
+            <p>Precio: $31.500</p>
+        </div>
+        <div class="add-to-cart">
+            <button>Agregar al carrito</button>
+            <img src="/Assets/Iconos/shop.png" alt="">
+        </div>
+    </div>
+    <div class="caja-shop">
+        <div class="box-shop-imagen">
+        <img src="./Assets/Anteojos/ant_praga.jpg" alt="">
+    </div>
+        <div class="caja-title">
+            <h2>Modelo Praga</h2>
+            <p>Precio: $31.500</p>
+        </div>
+        <div class="add-to-cart">
+            <button>Agregar al carrito</button>
+            <img src="/Assets/Iconos/shop.png" alt="">
+        </div>
+    </div>
 </section>
 
-<!-- Reviews Title -->
+<!-- Brands Title -->
 
-<div class="box-reviews-title" id="3">
-    <h1>Nuestras Reviews</h1>
+<section class="box-brands" >
+    <h3>Marcas</h3>
+
+    <div class="cards-brands">
+        <img src="" alt="">
+    </div>
+
+</section>
+
+<!-- Services Boxes -->
+
+<div class="title-compromise" id="3">
+    <h2>Comprometidos con tu Vision</h2>
 </div>
 
-<!-- Reviews Boxes -->
-
-<div class="box-reviews">
+<section class="box-reviews">
 
     <div class="review_1">
         <img src="./Assets/Categories/woman-1.jpg">
@@ -245,15 +301,28 @@
         <p>Esta marca me encanta porque siempre combinan con mis prendas diarias
         </p>
     </div>
-</div>
+</section>
+
+
 
    <!----- Contacto ----->
    
-<div class="box-contacto-gral" id="4">
-    
+<section class="box-contacto-gral" id="4">
+        
+    <div class="review_place">
+        <h1>Optica Montreal</h1>
+        <p>Atención calida, delicada y profesional con 35 años de trayectoria en el corazon de barrio de Palermo, personalizada y realizada por sus dueños. Venta especializada de anteojos Polaroid, tradicionales, de sol y lente azul
+        </p>
+    </div>
+
+    <div class="pay-method">
+    <h2>Trabajamos con todos los medios de pago</h2>
+        <img src="" alt="">
+    </div>
+
     <div class="boxes-contacto">
         
-        <p>Contacto</p>
+        <p>Contactanos</p>
 
         <div class="box-name">
         <label for="1">Nombre y Apellido</label>
@@ -280,23 +349,16 @@
         </div>
         
     </div>
+    
+</section>
 
-    <!-- Google maps location -->
-    <div class="mapouter">
+<!-- Google maps location -->
+<section class="mapouter">
         <div class="gmap_canvas">
-            <iframe width="500px" height="380px" id="gmap_canvas" src="https://maps.google.com/maps?q=optica tankel&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"></iframe>
+            <iframe width="1900px" height="400px" id="gmap_canvas" src="https://maps.google.com/maps?q=optica tankel&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"></iframe>
             <a href="https://2yu.co"></a>
             <a href="https://embedgooglemap.2yu.co/"></a>
         </div>
-    </div>
-    
-    <div class="review_place">
-        <h1>Polaroid Shop Optica Montreal</h1>
-        <p>Atención calida, delicada y profesional con 35 años de trayectoria en el corazon de barrio de Palermo, personalizada y realizada por sus dueños. Venta especializada de anteojos Polaroid, tradicionales, de sol y lente azul
-        </p>
-    </div>
-
-</div>
 </section>
 
 <!-- Seccion footer -->
