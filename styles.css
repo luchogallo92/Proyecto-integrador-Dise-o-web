@@ -5,6 +5,11 @@
     color: baackground #F5F5F5;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 30px;
+}
+
 /* GENERAL PPTES */
 *{
     padding: 0;
@@ -193,16 +198,39 @@ header img {
 }
 
 .caja-shop {
+    display: flex;
+    flex-direction: column;
     padding: 2px;
     width: 300px;
-    height: 450px;
+    height: 500px;
     border-radius: 5px;
-    background-color: #78aaff;
+    background-color: rgb(75, 75, 75);
 }
+
+.caja-categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja-categories span {
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-width: 1.2px;
+    color: #ffffff;
+    min-width: 5rem;
+    width: 10rem;
+    max-height: none;
+    height: 1.2rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 .box-shop-imagen {
     width: 300px;
-    height: 300px;
+    height: 330px;
 }
 
 .box-shop-imagen img {
@@ -221,14 +249,15 @@ header img {
 .caja-title h2 {
     font-weight: 800;
     font-size: 18px;
-    font-family: "Martel sans";
+    font-family: 'inter', sans-serif;
     text-align: center;
 
 }
 
 .caja-title p {
-    font-size: 12px;
-    font-family: "fira sans";
+    font-size: 14px;
+    font-style: oblique;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 
@@ -242,22 +271,18 @@ header img {
 }
 
 .add-to-cart button {
-    cursor: pointer;
-    border: none;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-width: 1.2px;
     font-size: 15px;
     font-weight: 600;
-    height: 2.5rem;
+    height: 2.0rem;
     width: 10rem;
-    border-radius: 10px 0px 0px 10px;
-    color: #242325;
-    background-color: #ffffff;
-}
-
-.add-to-cart img {
-    height: 2rem;
-    padding: 4px;
-    background-color: #ffffff;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: rgb(75, 75, 75);
+    font-family: 'Montserrat', sans-serif;
 }
 
 

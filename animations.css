@@ -70,5 +70,11 @@
 
  .caja-shop:hover {
   cursor: pointer;
-  background: linear-gradient(180deg, rgba(120,170,255,1) 50%, rgba(176,84,255,1) 100%);
+  background: linear-gradient(180deg, rgb(75, 75, 75) 10% ,rgb(98, 156, 255) 100%);
+}
+
+.add-to-cart button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
 }
