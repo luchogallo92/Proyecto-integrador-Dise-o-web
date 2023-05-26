@@ -263,10 +263,11 @@ header img {
 
 /* Box Marcas */
 
-.box-brands {
+.cards-brands {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     position: relative;
     margin: 0 auto;
     height: 350px;
@@ -275,13 +276,10 @@ header img {
     background-color: rgb(57, 57, 57); 
 }
 
-.box-brands h3 {
-    font-weight: 600;
-    font-size: 2rem;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    color: #F5F5F5;
+.cards-brands img {
+    height: 150px;
 }
+
 
 /*  BOX REVIEWS GRAL */
 
