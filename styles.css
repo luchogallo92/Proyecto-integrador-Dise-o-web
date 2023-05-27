@@ -15,6 +15,7 @@ html {
     padding: 0;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -22,6 +23,7 @@ body {
     max-width: 100%;
     width: 100%;
     background: rgb(255,255,255);
+    overflow-x: hidden;
 }
 
 /* Header Estilos */
@@ -71,23 +73,22 @@ header img {
     flex-direction: row;
     align-items: center;
     margin-right: 50px;
-
 }
 
 #ico-login {
-    height: 35px;
+    height: 50px;
     padding: 10px;
     margin: 5px;
 }
 
 #ico-fav {
-    height: 35px;
+    height: 50px;
     padding: 10px;
     margin: 5px;
 }
 
 #ico-shop {
-    height: 35px;
+    height: 50px;
     padding: 10px;
     margin: 5px;
 }
@@ -126,8 +127,6 @@ header img {
     width: 10rem;
 }
 
-
-
 .hero-img {
     z-index: -2;
     height: 30rem;
@@ -141,7 +140,6 @@ header img {
 }
 
 /* Products Filters */
-
 .filter h2 {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -184,7 +182,6 @@ header img {
     margin-top: -5px;
 }
 
-
 /* BOXES-SHOP */
 
 .boxes-shop {
@@ -201,7 +198,7 @@ header img {
     display: flex;
     flex-direction: column;
     padding: 2px;
-    width: 300px;
+    width: 305px;
     height: 500px;
     border-radius: 5px;
     background-color: rgb(75, 75, 75);
@@ -389,7 +386,7 @@ header img {
     padding: 1rem;
 }
 .review_place h1 {
-    font-family: "inter";
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     text-align: center;
     font-size: 2.5rem;
@@ -404,6 +401,18 @@ header img {
     margin-top: 1rem;
 }
 
+/* Metodos de pago */
+
+.pay-method {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pay-method h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
 /* ----Boxes de contacto---- */
 
 .boxes-contacto {
@@ -420,6 +429,12 @@ header img {
     font-size: 25px;
     font-weight: 500;
     text-align: center;
+}
+
+/* Mediaqueries mobiles */
+
+.mediaqueries-mobile-contact {
+    display: none;
 }
 
 /* Contacto nombre */
