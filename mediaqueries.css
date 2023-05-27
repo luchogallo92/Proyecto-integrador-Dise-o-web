@@ -1,6 +1,6 @@
-/* Mobile */
+/* VERSION MOBILE */
 
-@media (max-width: 428px) {
+@media (max-width: 720px) {
     *{
         margin: 0;
         padding: 0;
@@ -224,7 +224,20 @@
 
     .mediaqueries-mobile-contact {
         display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: auto;
+        gap: 20px;
     }
+
+    .mediaqueries-mobile-contact img {
+        height: 20px;
+        margin-bottom: -18px;
+    }
+
+
 
     .box-name {
         display: none;
