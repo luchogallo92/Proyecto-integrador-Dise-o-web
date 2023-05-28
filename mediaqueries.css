@@ -213,7 +213,8 @@
 
     body {
         margin: 0;
-        max-width: 100%;
+        width: fit-content;
+        max-width: fit-content;
         overflow-x: hidden;
     }
 
@@ -415,18 +416,35 @@
     /* BOX SECTION CONTACTO */
 
     .box-contacto-gral {
-        text-align: center;
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: fit-content;
+        width: 100%;
         height: auto;
         padding-bottom: 10px;
         margin: 0 auto;
     }
 
+    .review_place {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 300px;
+        gap: 0px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .review_place h3 {
+        font-size: 40px;
+        text-align: center;
+
+    }
     .review_place p {
+        width: 95%;
         font-weight: 400;
         font-family: 'Montserrat', sans-serif;
         color: #F5F5F5;
@@ -487,7 +505,7 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        height: fit-content;
+        height: 550px;
         max-width: 100%;
         text-align: center;
     }
