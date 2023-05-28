@@ -1,21 +1,22 @@
 @media (max-width: 800px) {
     
+    .body {
+        text-decoration: none;
+    }
+
     .input-checkbox {
         display: none;
     }
 
-    .menu-responsive {
-        display: flex;
-    }
-    .navbar-responsive{
+    .menu-toggle:checked {
         display: flex;
         flex-direction: column;
-        justify-content: right;
-        height: 2rem;
-        width: auto;
     }
-    .navbar  {
-        display: none;
+
+    .navbar :checked  {
+        display: flex;
+        width: fit-content;
+        height: auto;
     }
     .iconos-header {
          display: none;
@@ -53,9 +54,6 @@
         width: auto;
     }
 
-    .navbar  {
-        display: none;
-    }
     .iconos-header {
         display: none;
     }
@@ -218,6 +216,29 @@
         max-width: 100%;
         overflow-x: hidden;
     }
+
+    .input-checkbox {
+        display: none;
+    }
+
+    .menu-toggle:checked {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar  {
+        display: none;
+    }
+    
+    .navbar :checked  {
+        display: flex;
+        width: fit-content;
+        height: auto;
+    }
+    
+    .iconos-header {
+         display: none;
+    }
     
     /* Section Hero */
 
@@ -364,12 +385,21 @@
     }
 
     .box-reviews {
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: fit-content;
         height: auto;
+    }
+
+    .review_1 {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        height: fit-content;
+        gap: 0px
     }
 
     /* BOX SECTION CONTACTO */
@@ -474,12 +504,21 @@
     .box-footer {
         padding-top: 10px;
         display: flex;
+        justify-content: center;
         flex-direction: column;
         align-items: center;
-        gap: 20px;
         height: auto;
         max-width: 100%;
         text-align: center;
+    }
+
+    .box-footer-text-1 {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 15rem;
     }
 
     .box-social-media img {
