@@ -25,9 +25,27 @@ body {
     background: rgb(255,255,255);
     overflow-x: hidden;
 }
+    
 
 /* Header Estilos */
-header {
+
+@media (min-width: 800px) {
+
+    .input-checkbox {
+        display: none;
+    }
+
+    .iconos-header {
+         display: none;
+    }
+    .add-to-cart img{
+        display: none;
+    }
+    .menu-toggle {
+        display: none;
+    }
+
+    header {
     display: flex;
     flex: row;
     width: 100%;
@@ -93,6 +111,9 @@ header img {
     padding: 10px;
     margin: 5px;
 }
+
+}
+
 /* ------------------------------------------------- */
 
 /* Hero */
