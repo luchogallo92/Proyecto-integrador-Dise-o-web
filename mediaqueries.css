@@ -1,3 +1,20 @@
+/* Version Escritorio */
+
+@media (min-width: 1366px) {
+    .menu-toggle {
+        display: none;
+    }
+
+    .input-checkbox {
+        display: none;
+    }
+
+    .add-to-cart img{
+        display: none;
+    }
+}
+
+
 @media (max-width: 800px) {
     
     .body {
