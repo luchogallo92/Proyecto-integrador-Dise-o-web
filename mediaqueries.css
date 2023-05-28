@@ -1,24 +1,222 @@
-/* VERSION MOBILE */
-
-@media (max-width: 720px) {
-    *{
-        margin: 0;
-        padding: 0;
-        text-decoration: none;
-        box-sizing: border-box;
+@media (max-width: 800px) {
+    
+    .input-checkbox {
+        display: none;
     }
+
+    .menu-responsive {
+        display: flex;
+    }
+    .navbar-responsive{
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        height: 2rem;
+        width: auto;
+    }
+    .navbar  {
+        display: none;
+    }
+    .iconos-header {
+         display: none;
+    }
+}
+
+
+/* Version PAD */
+
+@media (max-width: 641px) {
+    
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 2.5rem;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .input-checkbox {
+        display: none;
+    }
+
+    .menu-responsive {
+        display: flex;
+    }
+
+    .navbar-responsive{
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        height: 2rem;
+        width: auto;
+    }
+
+    .navbar  {
+        display: none;
+    }
+    .iconos-header {
+        display: none;
+    }
+    
+    /* Section Hero */
+
+        .Hero-section {
+            padding-top: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            z-index: 20;
+            max-width: 100%;
+            width: 100%;
+            margin: 0 auto;
+            height: auto;
+        }
+    
+        .type-effect {
+            display: none;
+        }
+        .hero-img {
+            margin: 0;
+            z-index: -2;
+            height: 400px;
+            width: 100%;
+            background-image: url(./Assets/Banner/Banner-bg-2.jpg);
+            background-size: cover;
+            position: static;
+            background-position-x: center;
+            background-position-y: center;
+        }
+
+    /* Boxes anteojos */
+    .boxes-shop {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill);
+        width: 90%;
+        gap: 20px;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    /* Marcas */
+
+    .cards-brands {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        position: relative;
+        margin: 0 auto;
+        height: 350px;
+        width: 100%;
+        min-width: 75%;
+        background-color: rgb(57, 57, 57); 
+    }
+
+    .cards-brands img {
+        height: 120px;
+    }
+
+    /* BOX SECTION CONTACTO */
+
+    .box-contacto-gral {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            max-width: 100%;
+            width: 100%;
+            height: auto;
+            padding-bottom: 10px;
+            margin: 0 auto;
+     }
+        
+    .review_place {
+        display: flex;
+        flex-direction: column;
+        width: 30rem;
+        height: 20rem;
+        text-align: center;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    .review_place p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        color: #F5F5F5;
+        text-align: justify;
+        margin-top: 10px;
+        position: static;
+        padding: 25px;
+        font-size: 15px;
+    }
+
+    /* Mobile contact */
+
+    .boxes-contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        gap: 0;
+    }
+
+    .boxes-contacto p {
+        text-align: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .mediaqueries-mobile-contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: auto;
+        gap: 20px;
+    }
+    
+    .mediaqueries-mobile-contact img {
+        height: 20px;
+        margin-bottom: -18px;
+    }
+    
+        .box-name {
+            display: none;
+        }
+        .box-email {
+            display: none;
+        }
+        .box-phone {
+            display: none;
+        }
+        .box-mensaje {
+            display: none;
+        }
+        .button-send-info {
+            display: none;
+        }
+}
+
+/* -------------VERSION MOBILE ---------------*/
+
+@media (max-width: 640px) {
 
     body {
         margin: 0;
         max-width: 100%;
         overflow-x: hidden;
-    }
-
-    header {
-        display: flex;
-        flex-direction: column;
-        max-width: 100px;
-        height: 20px;
     }
     
     /* Section Hero */
@@ -45,7 +243,7 @@
         z-index: -2;
         height: 200px;
         width: 90%;
-        background-image: url(./Assets/Banner/Banner-bg-3.jpg);
+        background-image: url(./Assets/Banner/Banner-bg-2.jpg);
         background-size: cover;
         position: static;
         background-position-x: center;
@@ -63,15 +261,28 @@
         height: auto;
     }
 
+    .filter h2 {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .filter-card img {
+        height: 120px;
+        position: relative;
+    }
+
   /* cards anteojos */
 
     .boxes-shop {
+        margin: 0 auto;
         margin-top: 10px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
-        max-width: 100%;
-        width: 90%;
+        max-width: 90%;
+        width: 100%;
         height: auto;
         gap: 3px;
         margin-bottom: 10px;
@@ -83,8 +294,8 @@
         justify-content: center;
         align-items: center;
         padding: 2px;
-        width: 230px;
-        height: 400px;
+        width: 180px;
+        height: 290px;
         border-radius: 5px;
         background-color: rgb(75, 75, 75);
     }
@@ -116,10 +327,10 @@
     }
     
     .box-shop-imagen img {
-        width: 200px;
-        height: 250px;
+        width: 150px;
+        height: 150px;
         background-size: cover;
-        border-radius: 5px 5px 0px 0px;
+        border-radius: 5px;
     }
     
     .caja-title {
@@ -236,8 +447,6 @@
         height: 20px;
         margin-bottom: -18px;
     }
-
-
 
     .box-name {
         display: none;
