@@ -107,15 +107,15 @@
     /* BOX SECTION CONTACTO */
 
     .box-contacto-gral {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            max-width: 100%;
-            width: 100%;
-            height: auto;
-            padding-bottom: 10px;
-            margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        padding-bottom: 10px;
+        margin: 0 auto;
      }
         
     .review_place {

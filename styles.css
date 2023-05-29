@@ -216,6 +216,17 @@ header img {
     justify-content: center;
 }
 
+@media (max-width: 1366px) {
+    .boxes-shop {
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        gap: 20px;
+        grid-template-columns: repeat(4, 300px);
+        padding-bottom: 20px;
+    } 
+}
+
 .caja-shop {
     display: flex;
     flex-direction: column;
@@ -311,7 +322,6 @@ header img {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    position: relative;
     margin: 0 auto;
     height: 350px;
     width: 100%;
@@ -322,7 +332,6 @@ header img {
 .cards-brands img {
     height: 150px;
 }
-
 
 /*  BOX REVIEWS GRAL */
 
@@ -452,12 +461,6 @@ header img {
     text-align: center;
 }
 
-/* Mediaqueries mobiles */
-
-.mediaqueries-mobile-contact {
-    display: none;
-}
-
 /* Contacto nombre */
 
 .box-name {
@@ -564,6 +567,90 @@ header img {
     border-radius: 3px;
     background-color: #ffffff;
     color:  #242325;;
+}
+
+/* Media queries escritorio */
+
+@media (max-width: 1366px) {
+    
+    .box-contacto-gral {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        min-width: 75%;
+        background-color: rgb(57, 57, 57);
+        margin-top: 10px;
+        justify-content: space-around;
+        color: #F5F5F5;
+        padding-bottom: 20px;
+    }
+
+
+    .pay-method {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .pay-method img {
+        width: 850px;
+    }
+
+    .boxes-contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        gap: 0;
+    }
+
+    .boxes-contacto p {
+        text-align: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .mediaqueries-mobile-contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: auto;
+        gap: 20px;
+    }
+    
+    .mediaqueries-mobile-contact img {
+        height: 20px;
+        margin-bottom: -18px;
+    }
+    
+        .box-name {
+            display: none;
+        }
+        .box-email {
+            display: none;
+        }
+        .box-phone {
+            display: none;
+        }
+        .box-mensaje {
+            display: none;
+        }
+        .button-send-info {
+            display: none;
+        }
+}
+
+@media (min-width: 1367px) {
+    .mediaqueries-mobile-contact {
+        display: none;
+    }
 }
 
 /* Google maps */
