@@ -37,13 +37,39 @@
     color: #f7f7f7;
 }
 
-.login-box h1 {
+
+.change {
+   text-align: center;
+}
+
+.change h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 1rem;
     text-shadow: 1px 3px 5px rgb(54, 54, 54);
 }
+
+.change h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    text-shadow: 1px 3px 5px rgb(54, 54, 54);
+}
+
+.change a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.change a:hover{
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+    
+}
+
+
 
 /* Username */
 

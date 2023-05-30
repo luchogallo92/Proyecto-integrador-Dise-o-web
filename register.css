@@ -15,35 +15,58 @@
     background-size: cover;
     background-image: url(./Assets/Login/login-background-4.jpg);
     position: static;
-    opacity: 0.9;
+    opacity: 0.6;
 }
 
 .register-box {
-    z-index: 1;
+    z-index: 2;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 30rem;
+    height: 35rem;
     width: 20rem;
     margin: 0 auto;
     position: absolute;
     border-radius: 10px;
     font-family: "inter";
     padding: 15px;
+    gap: 2´5px;
     background: rgba(0, 0, 0, 0.22);
     backdrop-filter: blur(10.4px);
     -webkit-backdrop-filter: blur(10.4px);
     color: #f7f7f7;
 }
 
-.register-box h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 2rem;
-    margin-top: 1rem;
-    text-shadow: 1px 3px 5px rgb(54, 54, 54);
-}
+.change {
+    text-align: center;
+ }
+ 
+ .change h1 {
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 600;
+     font-size: 2rem;
+     margin-top: 1rem;
+     text-shadow: 1px 3px 5px rgb(54, 54, 54);
+ }
+ 
+ .change h2 {
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 600;
+     font-size: 1.3rem;
+     margin-top: 1rem;
+     text-shadow: 1px 3px 5px rgb(54, 54, 54);
+ }
+ 
+ .change a{
+     text-decoration: none;
+     color: #ffffff;
+ }
+ 
+ .change a:hover{
+     text-decoration: none;
+     color: rgb(54, 54, 54);
+ }
 
 /* Username */
 
@@ -55,17 +78,22 @@
     color: rgb(54, 54, 54);
     font-family: 'Montserrat', sans-serif;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: space-between;
     border-radius: 10px;
 }
 
+.register-username label {
+    margin-left: 10px;
+}
+
 .register-username input {
     background-color: rgb(220, 220, 220);
-    width: 12rem;
-    height: 2.25rem;
+    width: 5rem;
+    height: 2rem;
     border-radius: 10px;
     border: none;
+    margin-left: 10px;
 }
 
 /* Password */
@@ -86,7 +114,7 @@
 .register-password input {
     background-color: rgb(220, 220, 220);
     width: 12rem;
-    height: 2.25rem;
+    height: 40px;
     border-radius: 10px;
     border: none;
 }
@@ -95,17 +123,33 @@
 
 .register-access {
     display: flex;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: rgb(220, 220, 220);
     flex-direction: row;
-    gap: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(54, 54, 54);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.register-access input {
+    height: 2rem;
+    color: aqua;
+    border: none;
+    background-color: rgb(220, 220, 220);
+}
+
+.register-send {
+    display: flex;
+    flex-direction: row;
     text-decoration: none;
     text-align: center;
 }
 
-.register-access a {
+.register-send button {
     text-decoration: none;
-    color: #ffffff;
-}
-.register-access button {
     font-weight: 600;
     width: 12rem;
     height: 2.25rem;
@@ -114,4 +158,9 @@
     color: #ffffff;
     border:none;
     cursor: pointer;
+}
+
+.register-send a {
+    text-decoration: none;
+    color: #ffffff;
 }
