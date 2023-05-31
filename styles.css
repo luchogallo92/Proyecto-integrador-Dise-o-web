@@ -27,14 +27,16 @@ body {
     .input-checkbox {
         display: none;
     }
-
     .iconos-header {
          display: none;
     }
     .add-to-cart img{
         display: none;
     }
-    .menu-toggle {
+    .nav_label {
+        display: none;
+    }
+    .nav_drop{
         display: none;
     }
 

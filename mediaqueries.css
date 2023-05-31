@@ -14,7 +14,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        height: 3rem;
+        height: 4rem;
         width: 100%;
         justify-content: space-between;
         position: fixed;
@@ -27,22 +27,31 @@
 
     header img {
         padding-left: 10px;
-        height: 30px;
+        height: 35px;
     }
 
     .input-checkbox {
         display: none;
     }
 
-    .menu-toggle img {
+    .nav__container {
+        display: none;
+    }
+
+    .nav_drop img {
         margin-right: 10px;
         width: auto;
         cursor: pointer;
+        position: static;
     }
 
-    .navbar{
-        display: none;
+    .input-checkbox:checked + .nav__container {
+        display: block;
+        position: static;
+        text-align: right;
+        background-color: rgb(75, 75, 75);
     }
+
 
     .iconos-header {
         display: none;
@@ -51,7 +60,7 @@
     /* Section Hero */
 
     .Hero-section {
-        padding-top: 50px;
+        padding-top: 80px;
         display: flex;
         flex-direction: column;
         justify-content: center;
