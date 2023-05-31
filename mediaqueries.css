@@ -4,17 +4,19 @@
 @media (max-width: 800px) {
 
     body {
+        padding: 0;
         margin: 0;
         width: 100%;
         max-width: 100%;
         overflow-x: hidden;
+        box-sizing: border-box;
     }
 
     header {
         display: flex;
         flex-direction: row;
         align-items: center;
-        height: 4rem;
+        height: 3.5rem;
         width: 100%;
         justify-content: space-between;
         position: fixed;
@@ -27,7 +29,7 @@
 
     header img {
         padding-left: 10px;
-        height: 35px;
+        height: 30px;
     }
 
     .input-checkbox {
@@ -45,22 +47,44 @@
         position: static;
     }
 
-    .input-checkbox:checked + .nav__container {
-        display: block;
-        position: static;
-        text-align: right;
+    .nav__container {
+        text-align: center;
+        grid-column-gap: 50px;
+        position: absolute;
+        margin-top: 315px;
+        width: 100%;
+        height: 260px;
         background-color: rgb(75, 75, 75);
+        border-radius: 5px;
+    }
+
+    .nav__container ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .navbar a {
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .input-checkbox:checked + .nav__container {
+        display: grid; 
     }
 
 
     .iconos-header {
-        display: none;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
     }
 
     /* Section Hero */
 
     .Hero-section {
-        padding-top: 80px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -68,9 +92,9 @@
         position: relative;
         z-index: 20;
         max-width: 100%;
-        width: 98%;
+        width: 100%;
         margin: 0 auto;
-        height: auto;
+        height: 40vh;
     }
 
     .type-effect {
@@ -79,7 +103,7 @@
     .hero-img {
         margin: 0;
         z-index: -2;
-        height: 200px;
+        height: 30vh;
         width: 100%;
         background-image: url(./Assets/Banner/Banner-bg-2.jpg);
         background-size: cover;
