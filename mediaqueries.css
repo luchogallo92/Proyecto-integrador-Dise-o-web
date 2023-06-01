@@ -32,6 +32,15 @@
         height: 30px;
     }
 
+    .iconos-header {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        margin-right: 5px;
+    }
+
+    /* -----MENU PPAL MOBILE -----*/
+
     .input-checkbox {
         display: none;
     }
@@ -71,18 +80,76 @@
         color: #ffffff;
     }
 
-    .input-checkbox:checked + .nav__container {
+    .input-checkbox:checked ~ .nav__container {
         display: grid; 
     }
 
-
-    .iconos-header {
-        display: flex;
-        flex-direction: row;
-        gap: 5px;
+/* ------ Menu LOGIN ------ */
+    .login-box {
+        display: none;
     }
 
-    /* Section Hero */
+    .input-user {
+        display: none;
+    }
+
+    .input-user:checked ~ .login-box {
+        display: flex; 
+    }
+
+    .login-box {
+        padding-top: 13px;
+        flex-direction: column;
+        top: 56px;
+        right: 40px;
+        text-align: center;
+        gap: 30px;
+        float: left;
+        position: absolute;
+        width: 150px;
+        height: 110px;
+        background-color: rgb(75, 75, 75);
+        border-radius: 0px 0px 5px 5px;
+    }
+
+    .login-box a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+/* -----SHOP MOBILE ----- */
+
+.input-shop {
+    display: none;
+}
+
+.shop-list {
+    display: none;
+}
+
+.shop-list img {
+    height: 30px;
+    width: 30px;
+}
+
+.input-shop:checked ~ .shop-list {
+    display: flex; 
+}
+
+.shop-list {
+    top: 56px;
+    right: 10px;
+    flex-direction: column;
+    position: absolute;
+    width: 300px;
+    height: 600px;
+    background-color: rgb(75, 75, 75);
+    z-index: -5;
+    border-radius: 0px 0px 5px 5px;
+}
+ 
+
+/* Section Hero */
 
     .Hero-section {
         display: flex;

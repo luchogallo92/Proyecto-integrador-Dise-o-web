@@ -26,6 +26,7 @@
   background: linear-gradient(180deg, rgb(75, 75, 75) 10% ,rgb(98, 156, 255) 100%);
 }
 
+
 .add-to-cart button:hover {
   cursor: pointer;
   background-color: white;
