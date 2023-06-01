@@ -40,7 +40,7 @@
     <input type="checkbox" id="menu-toggle" class="input-checkbox">
     
 
-    <nav class="nav__container">
+    <div class="nav__container">
          <ul class="navbar">
             <li><a href="./index.html">Home</a></li>
             <li><a href="#2">Catalogo</a></li>
@@ -48,23 +48,41 @@
             <li><a href="#4">Servicios</a></li>
             <li><a href="#5">Sobre nosotros</a></li>
         </ul>
-    </nav>
+    </div>
 
     <!-- Iconos laterales derecha -->
     
     <div class="iconos-header">
 
-        <div class="login">
-            <a href="./login.html"><img src="./Assets/Iconos/login.svg" alt="" id="ico-login"></a>
+    <div class="login">
+        <input type="checkbox" name="" id="menu-login" class="input-user">
+        <label for="menu-login"><img src="./Assets/Iconos/login.svg" alt="" id="ico-login">
+        </label>
+          
+        <div class="login-box">
+            <li><a href="./login.html">Iniciar sesion</a></li>
+            <li><a href="./register.html">Registrarme</a></li>  
         </div>
+    </div>
+
+        
 
         <div class="favourites">
             <a href=""><img src="./Assets/Iconos/fav.png" alt="" id="ico-fav"></a>
         </div>
 
+
         <div class="shopcart">
-            <a href=""><img src="./Assets/Iconos/shop.png" alt="" id="ico-shop"></a>
+            <input type="checkbox" id="menu-shop" class="input-shop">
+            <label for="menu-shop"><img src="./Assets/Iconos/shop.png" alt="" id="ico-shop">
+            </label> 
+
+            <div class="shop-list">
+                
+            </div>
         </div>
+       
+
     </div>
 </header>
 
@@ -74,7 +92,7 @@
     <img src="" alt="">
 
     <!-- Login -->
-    <div class="login-box">
+    <div class="login_rectangle">
 
         <div class="change">
             <h1>Iniciar Sesion</h1>
