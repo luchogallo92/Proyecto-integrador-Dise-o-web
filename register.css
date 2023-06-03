@@ -24,17 +24,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 35rem;
+    height: 40rem;
     width: 20rem;
     margin: 0 auto;
     position: absolute;
     border-radius: 10px;
     font-family: "inter";
     padding: 15px;
-    gap: 2´5px;
+    gap: 5px;
     background: rgba(0, 0, 0, 0.22);
-    backdrop-filter: blur(10.4px);
-    -webkit-backdrop-filter: blur(10.4px);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     color: #f7f7f7;
 }
 
@@ -68,32 +68,33 @@
      color: rgb(54, 54, 54);
  }
 
+ #text-info-boxes {
+    color: #ffffff;
+    text-shadow: 1px 3px 5px rgb(54, 54, 54);
+    font-weight: 500;
+    margin-left: 10px;
+ }
+
 /* Username */
 
 .register-username {
     height: 4rem;
     width: 15rem;
-    background-color: rgb(220, 220, 220);
     display: flex;
     color: rgb(54, 54, 54);
     font-family: 'Montserrat', sans-serif;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     justify-content: space-between;
     border-radius: 10px;
 }
 
-.register-username label {
-    margin-left: 10px;
-}
-
 .register-username input {
     background-color: rgb(220, 220, 220);
-    width: 5rem;
-    height: 2rem;
+    width: 12rem;
+    height: 40px;
     border-radius: 10px;
     border: none;
-    margin-left: 10px;
 }
 
 /* Password */
@@ -101,7 +102,6 @@
 .register-password {
     height: 4rem;
     width: 15rem;
-    background-color: rgb(220, 220, 220);
     display: flex;
     color: rgb(54, 54, 54);
     font-family: 'Montserrat', sans-serif;
@@ -126,7 +126,6 @@
     height: fit-content;
     width: fit-content;
     border-radius: 10px;
-    background-color: rgb(220, 220, 220);
     flex-direction: row;
     text-decoration: none;
     text-align: center;
@@ -136,7 +135,6 @@
 
 .register-access input {
     height: 2rem;
-    color: aqua;
     border: none;
     background-color: rgb(220, 220, 220);
 }

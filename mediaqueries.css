@@ -141,7 +141,7 @@
     right: 10px;
     flex-direction: column;
     position: absolute;
-    width: 300px;
+    width: 320px;
     height: fit-content;
     padding-bottom: 20px;
     background-color: rgb(75, 75, 75);
@@ -160,12 +160,29 @@
     align-items: center;
     position: relative;
     justify-content: space-between;
-    height: 6rem;
+    height: 8rem;
     border: 5px solid white;
-    width: 18rem;
+    width: 19rem;
     border-radius: 5px;
     background-color: white;
     text-align: left;
+}
+
+#shop-item-title {
+    text-align: left;
+    height: 0.4px;
+}
+
+#shop-info-text {
+    display: flex;
+    flex-direction: column;
+    height: 8rem;
+    gap: 20px;
+    width: 5rem;
+}
+
+.card-shop-list p{
+    height: 0.5px;
 }
 
 .card-shop-list img {
@@ -209,6 +226,24 @@
 #shop-1-ico {
     width: 30px;
     height: 30px;
+}
+
+.shop-total-items {
+    top: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    justify-content: space-around;
+    height: 4rem;
+    border: 5px solid white;
+    width: 19rem;
+    border-radius: 5px;
+    background-color: white;
+    text-align: left;
 }
 
 /* Section Hero */
@@ -406,7 +441,6 @@
     .review_place h3 {
         font-size: 40px;
         text-align: center;
-
     }
     .review_place p {
         width: 95%;
@@ -415,6 +449,7 @@
         color: #F5F5F5;
         margin-top: 10px;
         font-size: 15px;
+        text-align: center;
     }
 
     /* Metodos de pago */

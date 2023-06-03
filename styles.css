@@ -220,6 +220,24 @@ header img {
     margin: 5px;
 }
 
+.shop-total-items {
+    top: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    justify-content: space-around;
+    height: 4rem;
+    border: 5px solid white;
+    width: 22rem;
+    border-radius: 5px;
+    background-color: white;
+    text-align: left;
+}
+
 }
 
 /* ------------------------------------------------- */
